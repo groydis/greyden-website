@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-export const SITE_URL = "https://greyden-website.pages.dev";
+export const SITE_URL = "https://greyden.dev";
 export const SITE_NAME = "GreyDOS 1.0";
 export const DEFAULT_DESCRIPTION =
   "Welcome to GreyDOS 1.0. Greyden Scott's personal website — a Windows 98 / GeoCities homage from a software developer in Brisbane, Australia.";

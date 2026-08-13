@@ -35,4 +35,4 @@ Or connect the GitHub repo in the Cloudflare dashboard:
 | Build output directory | `dist` |
 | Production branch | `main` |
 
-The site will be available at `https://greyden-website.pages.dev` (or a custom domain you attach).
+The site is live at [https://greyden.dev](https://greyden.dev).
