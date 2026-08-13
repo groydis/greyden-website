@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:wght@700&family=Pacifico&display=swap");
+
+.abWrap {
+  --ab-yellow: #fff200;
+  --ab-hot: #ff00aa;
+  --ab-lime: #66ff33;
+  --ab-cyan: #00ffff;
+  --ab-ink: #12000a;
+  position: relative;
+  overflow-x: hidden;
+  padding-bottom: 80px;
+}
+
+.abWrap::before {
+  content: "★ ★ ★ ★ ★ ★ ★ ★ ★ ★";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  font-size: 4rem;
+  letter-spacing: 1.2em;
+  color: rgba(255, 242, 0, 0.12);
+  animation: ab-sparkle-drift 18s linear infinite;
+  z-index: 0;
+}
+
+.ab-stage {
+  position: relative;
+  z-index: 1;
+  width: min(820px, 92%);
+  margin: 0 auto;
+  padding: 16px 10px 40px;
+  text-align: center;
+}
+
+.ab-marquee {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  background: repeating-linear-gradient(
+    90deg,
+    #ff00aa 0 16px,
+    #fff200 16px 32px,
+    #00ffff 32px 48px,
+    #66ff33 48px 64px
+  );
+  border-bottom: 6px ridge #fff;
+  color: #12000a;
+  font-family: "Bangers", "Comic Sans MS", cursive;
+  font-size: 1.4rem;
+  letter-spacing: 0.08em;
+  padding: 10px 0;
+  text-shadow: 2px 2px 0 #fff;
+}
+
+.ab-marquee-track {
+  display: flex;
+  width: max-content;
+  animation: ab-scroll 18s linear infinite;
+  gap: 4rem;
+}
+
+.ab-marquee-track span {
+  white-space: nowrap;
+}
+
+.ab-title {
+  font-family: "Bangers", "Comic Sans MS", cursive;
+  font-size: clamp(4rem, 12vw, 7rem);
+  font-weight: 400;
+  line-height: 0.9;
+  margin: 24px 0 8px;
+  color: var(--ab-yellow);
+  -webkit-text-stroke: 4px #000;
+  paint-order: stroke fill;
+  text-shadow:
+    0 0 12px #ff6a00,
+    0 0 28px #ff00aa,
+    6px 6px 0 #000;
+  animation: ab-fire-pulse 1.4s ease-in-out infinite alternate;
+}
+
+.ab-home {
+  display: inline-block;
+  margin: 8px 0 28px;
+  padding: 10px 22px;
+  font-family: "Bangers", "Comic Sans MS", cursive;
+  font-size: 2rem;
+  color: #fff !important;
+  background: linear-gradient(180deg, #ff4dd2, #7a00ff);
+  border: 5px outset #fff;
+  text-decoration: none !important;
+  text-shadow: 3px 3px 0 #000;
+  animation: ab-wiggle 1.8s ease-in-out infinite;
+}
+
+.ab-home:hover {
+  background: linear-gradient(180deg, #66ff33, #00c8ff);
+  color: #000 !important;
+  text-shadow: none;
+}
+
+.ab-hot {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 8px;
+  background: #ff0000;
+  color: #fff;
+  font-family: "Comic Neue", "Comic Sans MS", cursive;
+  font-size: 0.9rem;
+  animation: ab-blink 0.7s steps(2, end) infinite;
+}
+
+.ab-plaque {
+  background: linear-gradient(180deg, #fffce6 0%, var(--ab-yellow) 100%);
+  color: var(--ab-ink);
+  border: 8px ridge var(--ab-hot);
+  box-shadow:
+    0 0 0 4px #000,
+    12px 12px 0 #000,
+    0 0 24px rgba(255, 0, 170, 0.45);
+  padding: 22px 26px;
+  margin: 0 auto 28px;
+  font-family: "Comic Neue", "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 1.55rem;
+  font-weight: 700;
+  line-height: 1.55;
+  text-align: left;
+}
+
+.ab-plaque p {
+  margin: 0;
+  color: var(--ab-ink);
+}
+
+.ab-figure {
+  margin: 0 auto 36px;
+}
+
+.ab-pic {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 10px ridge gold;
+  box-shadow:
+    0 0 0 4px #000,
+    0 0 30px #ff6a00;
+  background: #000;
+  animation: ab-pic-tilt 5s ease-in-out infinite;
+}
+
+.ab-figure:nth-of-type(even) .ab-pic {
+  animation-direction: reverse;
+}
+
+.ab-caption {
+  margin-top: 14px;
+  padding: 18px 20px;
+  background: rgba(0, 0, 0, 0.82);
+  color: #fff;
+  border: 6px double var(--ab-cyan);
+  box-shadow: 0 0 18px var(--ab-cyan);
+  font-family: "Comic Neue", "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 1.45rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: left;
+  text-shadow:
+    0 2px 0 #000,
+    0 0 8px #00ffff;
+}
+
+.ab-footer-hit {
+  font-family: "Pacifico", cursive;
+  font-size: 1.8rem;
+  color: var(--ab-lime);
+  text-shadow:
+    3px 3px 0 #000,
+    0 0 12px #66ff33;
+  animation: ab-rainbow 3s linear infinite;
+}
+
+@keyframes ab-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes ab-fire-pulse {
+  from {
+    filter: brightness(1) saturate(1);
+    transform: scale(1) rotate(-1deg);
+  }
+  to {
+    filter: brightness(1.25) saturate(1.4);
+    transform: scale(1.04) rotate(1deg);
+  }
+}
+
+@keyframes ab-wiggle {
+  0%,
+  100% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(2deg);
+  }
+}
+
+@keyframes ab-blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes ab-pic-tilt {
+  0%,
+  100% {
+    transform: rotate(-1.2deg);
+  }
+  50% {
+    transform: rotate(1.2deg);
+  }
+}
+
+@keyframes ab-rainbow {
+  0% {
+    color: #66ff33;
+  }
+  33% {
+    color: #00ffff;
+  }
+  66% {
+    color: #ff00aa;
+  }
+  100% {
+    color: #fff200;
+  }
+}
+
+@keyframes ab-sparkle-drift {
+  from {
+    transform: translateY(0) rotate(0deg);
+  }
+  to {
+    transform: translateY(-80px) rotate(12deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ab-title,
+  .ab-home,
+  .ab-hot,
+  .ab-pic,
+  .ab-marquee-track,
+  .ab-footer-hit,
+  .abWrap::before {
+    animation: none;
+  }
+}

@@ -1,0 +1,134 @@
+.snes-page {
+  min-height: 100%;
+  padding: 24px 16px 80px;
+  color: #2c3e50;
+  background:
+    radial-gradient(circle at 12% 8%, #5b2d8e 0, transparent 42%),
+    radial-gradient(circle at 88% 92%, #163a6b 0, transparent 46%),
+    repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.035) 0 1px,
+      transparent 1px 4px
+    ),
+    #140c2b;
+}
+
+.snes-page-inner {
+  max-width: 920px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.snes-page h1,
+.snes-page h2,
+.snes-page h3,
+.snes-page p,
+.snes-page li {
+  font-family: "Press Start 2P", system-ui;
+}
+
+.snes-page h1,
+.snes-page h2,
+.snes-page h3 {
+  font-size: 22px;
+  line-height: 1.4;
+  color: #2c3e50;
+}
+
+.snes-page p,
+.snes-page li {
+  font-size: 12px;
+  line-height: 1.8;
+  color: #2c3e50;
+}
+
+.snes-page .snes-blockquote,
+.snes-page .snes-blockquote p {
+  color: #fff;
+}
+
+.snes-hud {
+  text-align: center;
+}
+
+.snes-hud .snes-container-title {
+  margin: 8px auto 16px;
+}
+
+.snes-hud-stats {
+  margin: 8px 0 20px;
+}
+
+.snes-file-label {
+  font-size: 11px !important;
+  margin: 0 0 12px !important;
+  letter-spacing: 0.12em;
+}
+
+.snes-page .snes-container-title {
+  margin-bottom: 24px;
+}
+
+.snes-page .snes-image {
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 100%;
+  height: auto;
+  background: transparent;
+}
+
+.snes-logo-square {
+  width: min(280px, 70%);
+}
+
+.snes-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 16px 0 24px;
+}
+
+.snes-page .snes-button {
+  text-decoration: none;
+  text-align: center;
+}
+
+.snes-embed {
+  border: solid;
+  border-image: var(--border-image);
+  border-image-slice: 12;
+  border-image-repeat: initial;
+  border-width: 12px;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 20px 0;
+  background: #000;
+}
+
+.snes-embed iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.snes-end-text {
+  text-align: center;
+  color: #fff !important;
+  font-size: 11px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .snes-page h1,
+  .snes-page h2,
+  .snes-page h3 {
+    font-size: 14px;
+  }
+
+  .snes-page p,
+  .snes-page li {
+    font-size: 10px;
+  }
+}
