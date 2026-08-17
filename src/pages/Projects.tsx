@@ -46,7 +46,7 @@ export default function Projects() {
     <div className="snes-page">
       <Seo
         title="Projects"
-        description="Greyden Scott's projects: GeoColour, SCANZ.SPACE, Big Brain Bash, Pizza Roulette, Meal Wheel, and Bin Chicken Dinner Royale."
+        description="Greyden Scott's projects: Squared Stiff, GeoColour, SCANZ.SPACE, Big Brain Bash, Pizza Roulette, Meal Wheel, and Bin Chicken Dinner Royale."
         path="/projects"
       />
       <div className="snes-page-inner">
@@ -64,6 +64,50 @@ export default function Projects() {
 
         <Stage
           file="FILE 1"
+          title="Squared Stiff"
+          status="COMING SOON"
+          containerClass="has-grey-bg"
+        >
+          <img
+            className="snes-image"
+            alt="Squared Stiff spelled in concrete cubes in a dark tunnel, lit by a fallen flashlight"
+            src="/squaredstiff.jpg"
+            width={1200}
+            height={630}
+          />
+          <blockquote className="snes-blockquote has-phantom-bg">
+            <p>Stay in the light.</p>
+          </blockquote>
+          <p>
+            Squared Stiff is a dark, atmospheric survival game for iPhone and
+            iPad, currently in progress. Armed with only a flashlight, you
+            explore an endless, ever-changing maze of abandoned hotel corridors,
+            underground tunnels and sewers, hunting for batteries to keep the
+            darkness at bay.
+          </p>
+          <p>
+            The deeper you travel, the more dangerous it gets. Ghostly creatures
+            patrol the corridors, forcing you to change direction and make quick
+            decisions with limited visibility. Your flashlight can reveal what
+            is waiting ahead, but it cannot protect you. Every second of light
+            is borrowed time.
+          </p>
+          <ul className="snes-list is-phantom-list-color">
+            <li>Endless procedural maze</li>
+            <li>Swipe controls, low-poly horror</li>
+            <li>Find batteries or the light dies</li>
+            <li>No exit. Stay alive.</li>
+          </ul>
+          <a
+            className="snes-button has-phantom-color"
+            href="https://squaredstiff.app/"
+          >
+            NEW GAME
+          </a>
+        </Stage>
+
+        <Stage
+          file="FILE 2"
           title="GeoColour"
           status="COMING SOON"
           containerClass="has-soft-green-bg"
@@ -107,7 +151,7 @@ export default function Projects() {
         </Stage>
 
         <Stage
-          file="FILE 2"
+          file="FILE 3"
           title="SCANZ.SPACE"
           status="NOW PLAYING"
           containerClass="has-white-bg"
@@ -138,7 +182,7 @@ export default function Projects() {
         </Stage>
 
         <Stage
-          file="FILE 3"
+          file="FILE 4"
           title="Big Brain Bash"
           status="GAME OVER"
           containerClass="has-secondary-purple-bg"
@@ -175,7 +219,7 @@ export default function Projects() {
         </Stage>
 
         <Stage
-          file="FILE 4"
+          file="FILE 5"
           title="Pizza Roulette"
           status="GAME OVER"
           containerClass="has-aged-yellow-bg"
@@ -275,7 +319,7 @@ export default function Projects() {
         </Stage>
 
         <Stage
-          file="FILE 5"
+          file="FILE 6"
           title="Meal Wheel"
           status="GAME OVER"
           containerClass="has-aged-yellow-bg"
@@ -294,7 +338,7 @@ export default function Projects() {
         </Stage>
 
         <Stage
-          file="FILE 6"
+          file="FILE 7"
           title="Bin Chicken Dinner Royale"
           status="GAME OVER"
           containerClass="has-grey-bg"
