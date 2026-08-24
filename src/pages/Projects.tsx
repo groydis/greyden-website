@@ -46,7 +46,7 @@ export default function Projects() {
     <div className="snes-page">
       <Seo
         title="Projects"
-        description="Greyden Scott's projects: Squared Stiff, GeoColour, SCANZ.SPACE, Big Brain Bash, Pizza Roulette, Meal Wheel, and Bin Chicken Dinner Royale."
+        description="Greyden Scott's projects: Squared Stiff, The Hollow Mile, GeoColour, SCANZ.SPACE, Big Brain Bash, Pizza Roulette, Meal Wheel, and Bin Chicken Dinner Royale."
         path="/projects"
       />
       <div className="snes-page-inner">
@@ -65,7 +65,7 @@ export default function Projects() {
         <Stage
           file="FILE 1"
           title="Squared Stiff"
-          status="COMING SOON"
+          status="NOW PLAYING"
           containerClass="has-grey-bg"
         >
           <img
@@ -108,6 +108,47 @@ export default function Projects() {
 
         <Stage
           file="FILE 2"
+          title="The Hollow Mile"
+          status="NOW PLAYING"
+          containerClass="has-sunshine-bg"
+        >
+          <img
+            className="snes-image"
+            alt="The Hollow Mile class select screen, showing a Rogue with health, attack, defence and evade stats"
+            src="/hollowmile.jpg"
+            width={1092}
+            height={1100}
+          />
+          <blockquote className="snes-blockquote has-ember-bg">
+            <p>The road below awaits.</p>
+          </blockquote>
+          <p>
+            The Hollow Mile is a mobile-first, tile-based dungeon roguelite,
+            currently in active development. Pick a class, tap glowing tiles to
+            push one row deeper, and see how far you can get before the dungeon
+            takes you.
+          </p>
+          <p>
+            Level up on the road, spend gold with a travelling merchant, and
+            choose upgrades as you go. There are six classes to start as, from
+            nimble rogues to heavier fighters, each with their own stats and
+            kit.
+          </p>
+          <ul className="snes-list is-ember-list-color">
+            <li>Tile-by-tile dungeon runs</li>
+            <li>Six classes, gold, XP and shops</li>
+            <li>Play it in the browser now</li>
+          </ul>
+          <a
+            className="snes-button has-ember-color"
+            href="https://hollowmile.com/"
+          >
+            CONTINUE
+          </a>
+        </Stage>
+
+        <Stage
+          file="FILE 3"
           title="GeoColour"
           status="COMING SOON"
           containerClass="has-soft-green-bg"
@@ -151,7 +192,7 @@ export default function Projects() {
         </Stage>
 
         <Stage
-          file="FILE 3"
+          file="FILE 4"
           title="SCANZ.SPACE"
           status="NOW PLAYING"
           containerClass="has-white-bg"
@@ -182,7 +223,7 @@ export default function Projects() {
         </Stage>
 
         <Stage
-          file="FILE 4"
+          file="FILE 5"
           title="Big Brain Bash"
           status="GAME OVER"
           containerClass="has-secondary-purple-bg"
@@ -219,7 +260,7 @@ export default function Projects() {
         </Stage>
 
         <Stage
-          file="FILE 5"
+          file="FILE 6"
           title="Pizza Roulette"
           status="GAME OVER"
           containerClass="has-aged-yellow-bg"
@@ -319,7 +360,7 @@ export default function Projects() {
         </Stage>
 
         <Stage
-          file="FILE 6"
+          file="FILE 7"
           title="Meal Wheel"
           status="GAME OVER"
           containerClass="has-aged-yellow-bg"
@@ -338,7 +379,7 @@ export default function Projects() {
         </Stage>
 
         <Stage
-          file="FILE 7"
+          file="FILE 8"
           title="Bin Chicken Dinner Royale"
           status="GAME OVER"
           containerClass="has-grey-bg"
