@@ -59,10 +59,13 @@ export default function Home() {
                 LINKEDIN
               </a>
               <br />
+              {"2026-08-21 12:01PM  ❮DIR❯  "}
+              <a href="https://x.com/GreydenScott">X</a>
+              <br />
               {"2021-01-01 12:01PM  ❮DIR❯  "}
               <Link to="/resume">RESUME</Link>
               <br />
-              {"    5 Dir(s) 34,871,164 bytes free"}
+              {"    6 Dir(s) 34,871,164 bytes free"}
               <br />
               {"C:\\"}
             </pre>
