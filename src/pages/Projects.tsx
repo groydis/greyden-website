@@ -46,7 +46,7 @@ export default function Projects() {
     <div className="snes-page">
       <Seo
         title="Projects"
-        description="Greyden Scott's projects: Squared Stiff, The Hollow Mile, GeoColour, SCANZ.SPACE, Big Brain Bash, Pizza Roulette, Meal Wheel, and Bin Chicken Dinner Royale."
+        description="Greyden Scott's projects: Hoppy Dungeon, Squared Stiff, GeoColour, SCANZ.SPACE, Big Brain Bash, Pizza Roulette, Meal Wheel, and Bin Chicken Dinner Royale."
         path="/projects"
       />
       <div className="snes-page-inner">
@@ -64,6 +64,46 @@ export default function Projects() {
 
         <Stage
           file="FILE 1"
+          title="Hoppy Dungeon"
+          status="NOW PLAYING"
+          containerClass="has-grey-bg"
+        >
+          <img
+            className="snes-image"
+            alt="Hoppy Dungeon rogue hopping with daggers raised"
+            src="/hoppydungeon.jpg"
+            width={1024}
+            height={576}
+          />
+          <blockquote className="snes-blockquote has-ember-bg">
+            <p>Hop into the dungeon. Survive one row at a time.</p>
+          </blockquote>
+          <p>
+            Hoppy Dungeon is a mobile-first, tile-based dungeon roguelite. Pick
+            a class, tap a glowing tile, and advance one row at a time through a
+            three-lane dungeon. You are not free to roam.
+          </p>
+          <p>
+            Every step is a choice: fight, evade, take the gold, or trip an
+            alarm that pulls the dead closer. Combat is automatic. Survival is
+            not. Spend gold with a travelling merchant, choose how you grow, and
+            see how far the dungeon will take you.
+          </p>
+          <ul className="snes-list is-ember-list-color">
+            <li>Five classes with different ways to survive</li>
+            <li>Weapons, merchants and upgrades that change every run</li>
+            <li>Play the browser alpha now, iOS coming soon</li>
+          </ul>
+          <a
+            className="snes-button has-ember-color"
+            href="https://hoppydungeon.com/"
+          >
+            NEW GAME
+          </a>
+        </Stage>
+
+        <Stage
+          file="FILE 2"
           title="Squared Stiff"
           status="NOW PLAYING"
           containerClass="has-grey-bg"
@@ -103,47 +143,6 @@ export default function Projects() {
             href="https://squaredstiff.app/"
           >
             NEW GAME
-          </a>
-        </Stage>
-
-        <Stage
-          file="FILE 2"
-          title="The Hollow Mile"
-          status="NOW PLAYING"
-          containerClass="has-sunshine-bg"
-        >
-          <img
-            className="snes-image"
-            alt="The Hollow Mile class select screen, showing a Rogue with health, attack, defence and evade stats"
-            src="/hollowmile.jpg"
-            width={1092}
-            height={1100}
-          />
-          <blockquote className="snes-blockquote has-ember-bg">
-            <p>The road below awaits.</p>
-          </blockquote>
-          <p>
-            The Hollow Mile is a mobile-first, tile-based dungeon roguelite,
-            currently in active development. Pick a class, tap glowing tiles to
-            push one row deeper, and see how far you can get before the dungeon
-            takes you.
-          </p>
-          <p>
-            Level up on the road, spend gold with a travelling merchant, and
-            choose upgrades as you go. There are six classes to start as, from
-            nimble rogues to heavier fighters, each with their own stats and
-            kit.
-          </p>
-          <ul className="snes-list is-ember-list-color">
-            <li>Tile-by-tile dungeon runs</li>
-            <li>Six classes, gold, XP and shops</li>
-            <li>Play it in the browser now</li>
-          </ul>
-          <a
-            className="snes-button has-ember-color"
-            href="https://hollowmile.com/"
-          >
-            CONTINUE
           </a>
         </Stage>
 
