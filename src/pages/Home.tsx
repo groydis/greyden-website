@@ -51,6 +51,9 @@ export default function Home() {
               {"2021-03-10 12:16PM  ❮DIR❯  "}
               <Link to="/projects">PROJECTS</Link>
               <br />
+              {"2026-09-15 12:01PM  ❮DIR❯  "}
+              <a href="https://blog.greyden.dev/">BLOG</a>
+              <br />
               {"2021-02-02 12:01PM  ❮DIR❯  "}
               <a href="https://github.com/groydis">GITHUB</a>
               <br />
@@ -65,7 +68,7 @@ export default function Home() {
               {"2021-01-01 12:01PM  ❮DIR❯  "}
               <Link to="/resume">RESUME</Link>
               <br />
-              {"    6 Dir(s) 34,871,164 bytes free"}
+              {"    7 Dir(s) 34,871,164 bytes free"}
               <br />
               {"C:\\"}
             </pre>
