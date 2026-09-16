@@ -52,7 +52,7 @@ export default function Home() {
               <Link to="/projects">PROJECTS</Link>
               <br />
               {"2026-09-15 12:01PM  ❮DIR❯  "}
-              <a href="https://blog.greyden.dev/">BLOG</a>
+              <Link to="/news">NEWS</Link>
               <br />
               {"2021-02-02 12:01PM  ❮DIR❯  "}
               <a href="https://github.com/groydis">GITHUB</a>
