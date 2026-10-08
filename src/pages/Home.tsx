@@ -58,17 +58,22 @@ export default function Home() {
               <a href="https://greyden.games/">GAMES</a>
               <br />
               {"2021-02-02 12:01PM  ❮DIR❯  "}
-              <a href="https://github.com/groydis" rel="me">
+              <a href="https://github.com/groydis" rel="me authn">
                 GITHUB
               </a>
               <br />
               {"2021-04-20 12:08PM  ❮DIR❯  "}
-              <a href="https://www.linkedin.com/in/greyden-scott-734122175/">
+              <a
+                href="https://www.linkedin.com/in/greyden-scott-734122175/"
+                rel="me"
+              >
                 LINKEDIN
               </a>
               <br />
               {"2026-08-21 12:01PM  ❮DIR❯  "}
-              <a href="https://x.com/GreydenScott">X</a>
+              <a href="https://x.com/GreydenScott" rel="me">
+                X
+              </a>
               <br />
               {"2021-01-01 12:01PM  ❮DIR❯  "}
               <Link to="/resume">RESUME</Link>
