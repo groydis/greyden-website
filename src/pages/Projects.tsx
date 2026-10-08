@@ -46,7 +46,7 @@ export default function Projects() {
     <div className="snes-page">
       <Seo
         title="Projects"
-        description="Greyden Scott's projects: Hoppy Dungeon, Squared Stiff, GeoColour, SCANZ.SPACE, Big Brain Bash, Pizza Roulette, Meal Wheel, and Bin Chicken Dinner Royale."
+        description="Greyden Scott's projects: Star Trail, Hoppy Dungeon, Squared Stiff, GeoColour, SCANZ.SPACE, Big Brain Bash, Pizza Roulette, Meal Wheel, and Bin Chicken Dinner Royale."
         path="/projects"
       />
       <div className="snes-page-inner">
@@ -64,6 +64,46 @@ export default function Projects() {
 
         <Stage
           file="FILE 1"
+          title="Star Trail"
+          status="NOW PLAYING"
+          containerClass="has-grey-bg"
+        >
+          <img
+            className="snes-image"
+            alt="Star Trail title over a pixel-art orange nebula"
+            src="/startrail.jpg"
+            width={1200}
+            height={630}
+          />
+          <blockquote className="snes-blockquote has-ocean-bg">
+            <p>Cross the galaxy. Keep them alive.</p>
+          </blockquote>
+          <p>
+            Star Trail is a free pixel-art space survival game you can play in
+            your browser. Guide your ship home across a procedurally generated
+            galaxy, one jump at a time.
+          </p>
+          <p>
+            Ration fuel and food, repair your hull, and manage a crew with
+            opinions of their own. They form friendships, hold grudges and keep
+            secrets. Try to reach the final gate alive.
+          </p>
+          <ul className="snes-list is-sunshine-list-color">
+            <li>A new galaxy every journey</li>
+            <li>Eight hopefuls, four bunks</li>
+            <li>Traits that cut both ways</li>
+            <li>Free in the browser. No download.</li>
+          </ul>
+          <a
+            className="snes-button has-ocean-color"
+            href="https://startrail.greyden.games/"
+          >
+            NEW GAME
+          </a>
+        </Stage>
+
+        <Stage
+          file="FILE 2"
           title="Hoppy Dungeon"
           status="NOW PLAYING"
           containerClass="has-grey-bg"
@@ -103,7 +143,7 @@ export default function Projects() {
         </Stage>
 
         <Stage
-          file="FILE 2"
+          file="FILE 3"
           title="Squared Stiff"
           status="NOW PLAYING"
           containerClass="has-grey-bg"
@@ -147,7 +187,7 @@ export default function Projects() {
         </Stage>
 
         <Stage
-          file="FILE 3"
+          file="FILE 4"
           title="GeoColour"
           status="COMING SOON"
           containerClass="has-soft-green-bg"
@@ -191,7 +231,7 @@ export default function Projects() {
         </Stage>
 
         <Stage
-          file="FILE 4"
+          file="FILE 5"
           title="SCANZ.SPACE"
           status="NOW PLAYING"
           containerClass="has-white-bg"
@@ -222,7 +262,7 @@ export default function Projects() {
         </Stage>
 
         <Stage
-          file="FILE 5"
+          file="FILE 6"
           title="Big Brain Bash"
           status="GAME OVER"
           containerClass="has-secondary-purple-bg"
@@ -259,7 +299,7 @@ export default function Projects() {
         </Stage>
 
         <Stage
-          file="FILE 6"
+          file="FILE 7"
           title="Pizza Roulette"
           status="GAME OVER"
           containerClass="has-aged-yellow-bg"
@@ -359,7 +399,7 @@ export default function Projects() {
         </Stage>
 
         <Stage
-          file="FILE 7"
+          file="FILE 8"
           title="Meal Wheel"
           status="GAME OVER"
           containerClass="has-aged-yellow-bg"
@@ -378,7 +418,7 @@ export default function Projects() {
         </Stage>
 
         <Stage
-          file="FILE 8"
+          file="FILE 9"
           title="Bin Chicken Dinner Royale"
           status="GAME OVER"
           containerClass="has-grey-bg"

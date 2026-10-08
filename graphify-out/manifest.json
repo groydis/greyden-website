@@ -1,0 +1,344 @@
+{
+  ".oxlintrc.json": {
+    "mtime": 1789167799.9943545,
+    "seen": 1791418733.8741498,
+    "ast_hash": "029f4905006c1fffd96bc863e2d98d3e",
+    "semantic_hash": ""
+  },
+  "functions/_astro/[[path]].js": {
+    "mtime": 1789551751.3431785,
+    "seen": 1791418733.874152,
+    "ast_hash": "ae9a5469c4604f88c0030eb9fea0f998",
+    "semantic_hash": ""
+  },
+  "functions/_emdash/api/[[path]].js": {
+    "mtime": 1789551813.3746073,
+    "seen": 1791418733.874153,
+    "ast_hash": "6daec0e075a2ee99171c95f600bf5484",
+    "semantic_hash": ""
+  },
+  "functions/_lib/blog-proxy.js": {
+    "mtime": 1789551751.2265747,
+    "seen": 1791418733.874154,
+    "ast_hash": "bc99ba308a8c71d1a8f6989dcde9aa2f",
+    "semantic_hash": ""
+  },
+  "functions/news/[[path]].js": {
+    "mtime": 1789551751.2853327,
+    "seen": 1791418733.874154,
+    "ast_hash": "a22ac49b19ebf671d46d5ff55c058083",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1789167799.9947631,
+    "seen": 1791418733.874155,
+    "ast_hash": "20b59818fa94f5614225eb6c4839d12d",
+    "semantic_hash": ""
+  },
+  "src/App.tsx": {
+    "mtime": 1789167800.0070114,
+    "seen": 1791418733.874155,
+    "ast_hash": "a0d7f9deaae9eb4bd7fffba71fcf2edf",
+    "semantic_hash": ""
+  },
+  "src/Seo.tsx": {
+    "mtime": 1789167800.0070906,
+    "seen": 1791418733.874156,
+    "ast_hash": "3faaa9ff4289f7c46474e0402ac6fca7",
+    "semantic_hash": ""
+  },
+  "src/main.tsx": {
+    "mtime": 1789167800.0072742,
+    "seen": 1791418733.874156,
+    "ast_hash": "3cf387bc1a64a59d587e4ab14c9c6b82",
+    "semantic_hash": ""
+  },
+  "src/pages/About.tsx": {
+    "mtime": 1789167800.0076501,
+    "seen": 1791418733.874156,
+    "ast_hash": "f04f3098f8a787e1b217c6fe11e8a3e3",
+    "semantic_hash": ""
+  },
+  "src/pages/Home.tsx": {
+    "mtime": 1789600244.1084638,
+    "seen": 1791418733.874157,
+    "ast_hash": "abf27c056f314041257170889f54c3fa",
+    "semantic_hash": ""
+  },
+  "src/pages/Projects.tsx": {
+    "mtime": 1791418584.0881808,
+    "seen": 1791418733.874157,
+    "ast_hash": "8c045356f80ee6fd8a145820124639e2",
+    "semantic_hash": ""
+  },
+  "src/pages/Resume.tsx": {
+    "mtime": 1789167800.0080862,
+    "seen": 1791418733.8741581,
+    "ast_hash": "c5dad1620217b8df4ebcc666c729f8bb",
+    "semantic_hash": ""
+  },
+  "tsconfig.app.json": {
+    "mtime": 1789167800.008313,
+    "seen": 1791418733.8741581,
+    "ast_hash": "5f2dafd737dea8a4ddcbb10f5113ac5a",
+    "semantic_hash": ""
+  },
+  "tsconfig.json": {
+    "mtime": 1789167800.0083737,
+    "seen": 1791418733.8741581,
+    "ast_hash": "a3d39fa780ebff65444de257f291ce6c",
+    "semantic_hash": ""
+  },
+  "tsconfig.node.json": {
+    "mtime": 1789167800.0084403,
+    "seen": 1791418733.874159,
+    "ast_hash": "f9cb81ddcea69ffdab672fc8c48dca66",
+    "semantic_hash": ""
+  },
+  "vite.config.ts": {
+    "mtime": 1789167800.0085022,
+    "seen": 1791418733.874159,
+    "ast_hash": "eb30fd0b246f67bd36a214f0ffcaba2c",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1789167799.9944282,
+    "seen": 1791418733.874159,
+    "ast_hash": "4acf20cb259c85f7d363a9ae1b76ec38",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1791418497.9942007,
+    "seen": 1791418733.87416,
+    "ast_hash": "34c9fa010dbb7d9493ade27daad01566",
+    "semantic_hash": ""
+  },
+  "public/robots.txt": {
+    "mtime": 1789167800.0051389,
+    "seen": 1791418733.87416,
+    "ast_hash": "69a6afc01db281529f5aa6b53768a066",
+    "semantic_hash": ""
+  },
+  "public/MealWheel.png": {
+    "mtime": 1789167799.9958174,
+    "seen": 1791418733.874161,
+    "ast_hash": "4491b871a1205cddf0a7f2895b5ebfd6",
+    "semantic_hash": ""
+  },
+  "public/aboutme48.gif": {
+    "mtime": 1789167799.9960988,
+    "seen": 1791418733.874161,
+    "ast_hash": "2101ca97bc31bd4e044dfea0de2a599b",
+    "semantic_hash": ""
+  },
+  "public/apple-touch-icon.png": {
+    "mtime": 1789167799.996221,
+    "seen": 1791418733.874162,
+    "ast_hash": "af28f5f38756105a87d8df874833d19c",
+    "semantic_hash": ""
+  },
+  "public/background.jpg": {
+    "mtime": 1789167799.9969082,
+    "seen": 1791418733.874162,
+    "ast_hash": "14b6941574d1ad0cfa114ce796038854",
+    "semantic_hash": ""
+  },
+  "public/bigbrainbash.jpg": {
+    "mtime": 1789167799.9972951,
+    "seen": 1791418733.874162,
+    "ast_hash": "72713b73bb79d32ee92a9e71969bbd62",
+    "semantic_hash": ""
+  },
+  "public/clubs.gif": {
+    "mtime": 1789167799.9974744,
+    "seen": 1791418733.874163,
+    "ast_hash": "abe9a6ebf38c760ff0fc69afdd2d5ec5",
+    "semantic_hash": ""
+  },
+  "public/datingtop.gif": {
+    "mtime": 1789167799.9975784,
+    "seen": 1791418733.874163,
+    "ast_hash": "92577c0f1f03f292a285988356cd44c6",
+    "semantic_hash": ""
+  },
+  "public/droyale.png": {
+    "mtime": 1789167799.997847,
+    "seen": 1791418733.874163,
+    "ast_hash": "d56824f6a60c87204b306c85892a8e4e",
+    "semantic_hash": ""
+  },
+  "public/education.gif": {
+    "mtime": 1789167799.997982,
+    "seen": 1791418733.8741639,
+    "ast_hash": "2f930b4dced61a8736bc96b8637986e8",
+    "semantic_hash": ""
+  },
+  "public/employment.gif": {
+    "mtime": 1789167799.998177,
+    "seen": 1791418733.8741639,
+    "ast_hash": "491dbb66ba5e7b2bc84554303ead09cb",
+    "semantic_hash": ""
+  },
+  "public/favicon-16.png": {
+    "mtime": 1789167799.9982388,
+    "seen": 1791418733.874165,
+    "ast_hash": "897cbdd355bbc7b4ec4061ffaf575a2a",
+    "semantic_hash": ""
+  },
+  "public/favicon-192.png": {
+    "mtime": 1789167799.998295,
+    "seen": 1791418733.874165,
+    "ast_hash": "2b354c8923ca00b518c4597d88274eda",
+    "semantic_hash": ""
+  },
+  "public/favicon-32.png": {
+    "mtime": 1789167799.998367,
+    "seen": 1791418733.874166,
+    "ast_hash": "eb60878b410fec45406ebd0f914f1199",
+    "semantic_hash": ""
+  },
+  "public/favicon-512.png": {
+    "mtime": 1789167799.9984975,
+    "seen": 1791418733.874166,
+    "ast_hash": "8357641d6fce4f6ae87ccb4cf98db179",
+    "semantic_hash": ""
+  },
+  "public/favicon.png": {
+    "mtime": 1789167799.9985688,
+    "seen": 1791418733.874166,
+    "ast_hash": "fee2212bd24149664376297c1ed5e294",
+    "semantic_hash": ""
+  },
+  "public/favicon.svg": {
+    "mtime": 1789167799.998633,
+    "seen": 1791418733.874167,
+    "ast_hash": "8d3b871bb00cf544d31c04822ec7a8ed",
+    "semantic_hash": ""
+  },
+  "public/flamebg.jpg": {
+    "mtime": 1789167799.9987586,
+    "seen": 1791418733.874167,
+    "ast_hash": "5b51c2245c56d222306de900e5bb2e63",
+    "semantic_hash": ""
+  },
+  "public/flames.gif": {
+    "mtime": 1789167799.998917,
+    "seen": 1791418733.874167,
+    "ast_hash": "7fdacb9dffead0161f97fd2bba81dda8",
+    "semantic_hash": ""
+  },
+  "public/gcbg.jpg": {
+    "mtime": 1789167799.9996665,
+    "seen": 1791418733.8741682,
+    "ast_hash": "b9c57c2af8796a9391e5503b61887a52",
+    "semantic_hash": ""
+  },
+  "public/geocolor.png": {
+    "mtime": 1789167799.9998143,
+    "seen": 1791418733.8741682,
+    "ast_hash": "b3a881ba701e61f0b82a6104e5ac2de9",
+    "semantic_hash": ""
+  },
+  "public/geocolour.png": {
+    "mtime": 1789167799.9999099,
+    "seen": 1791418733.874169,
+    "ast_hash": "5e9145451ca2cbafcc69a56517c593cd",
+    "semantic_hash": ""
+  },
+  "public/home.gif": {
+    "mtime": 1789167800.0002496,
+    "seen": 1791418733.874169,
+    "ast_hash": "a30c44ea70c7093d6c4c14834eb3c92e",
+    "semantic_hash": ""
+  },
+  "public/hoppydungeon.jpg": {
+    "mtime": 1789169247.5405638,
+    "seen": 1791418733.874169,
+    "ast_hash": "078eeba0a3bce1bf4cc6b130e3e2107b",
+    "semantic_hash": ""
+  },
+  "public/karate.png": {
+    "mtime": 1789167800.0016131,
+    "seen": 1791418733.87417,
+    "ast_hash": "f1609cd4640909930f35154237a4bd34",
+    "semantic_hash": ""
+  },
+  "public/logie.png": {
+    "mtime": 1789167800.0024302,
+    "seen": 1791418733.87417,
+    "ast_hash": "c048559659678deda3bc91dfe69d367e",
+    "semantic_hash": ""
+  },
+  "public/mobile.gif": {
+    "mtime": 1789167800.0025933,
+    "seen": 1791418733.8741708,
+    "ast_hash": "458227f685383a7fd236f57c7f691380",
+    "semantic_hash": ""
+  },
+  "public/obama.png": {
+    "mtime": 1789167800.0030081,
+    "seen": 1791418733.8741708,
+    "ast_hash": "30dd6a8708d889ae20faced029506947",
+    "semantic_hash": ""
+  },
+  "public/og-image.jpg": {
+    "mtime": 1789167800.0034432,
+    "seen": 1791418733.874172,
+    "ast_hash": "2b3e170f5a1b874193321d481a192200",
+    "semantic_hash": ""
+  },
+  "public/pizzaroulettelogo.png": {
+    "mtime": 1789167800.0038939,
+    "seen": 1791418733.874172,
+    "ast_hash": "7015214a5df384bdeee31788957456ef",
+    "semantic_hash": ""
+  },
+  "public/queen.png": {
+    "mtime": 1789167800.0048175,
+    "seen": 1791418733.874172,
+    "ast_hash": "09261672424846dfe3ffb5e8d5d03932",
+    "semantic_hash": ""
+  },
+  "public/resume2.gif": {
+    "mtime": 1789167800.0050237,
+    "seen": 1791418733.874173,
+    "ast_hash": "ee70281db1d3d6260db070be2df08a3a",
+    "semantic_hash": ""
+  },
+  "public/scanz.png": {
+    "mtime": 1789167800.0055578,
+    "seen": 1791418733.874173,
+    "ast_hash": "4d9cd3dcaf58a53e7a9fe897257945bf",
+    "semantic_hash": ""
+  },
+  "public/squaredstiff.jpg": {
+    "mtime": 1789167800.0059326,
+    "seen": 1791418733.874173,
+    "ast_hash": "9421e393c78ed28907ad2a8e03123c3a",
+    "semantic_hash": ""
+  },
+  "public/startrail.jpg": {
+    "mtime": 1791418491.4742386,
+    "seen": 1791418733.8741739,
+    "ast_hash": "abbfa046a7e971ee432d19fdf5ee7646",
+    "semantic_hash": ""
+  },
+  "public/welcome.gif": {
+    "mtime": 1789167800.0061445,
+    "seen": 1791418733.8741739,
+    "ast_hash": "24cfa2f770ed2f253db2ac3c5b245311",
+    "semantic_hash": ""
+  },
+  "public/wizard.gif": {
+    "mtime": 1789167800.006252,
+    "seen": 1791418733.874175,
+    "ast_hash": "0cd1abb8bac1ddde17cc7692d5954fdb",
+    "semantic_hash": ""
+  },
+  "public/wordart-gs.png": {
+    "mtime": 1789167800.0068681,
+    "seen": 1791418733.874175,
+    "ast_hash": "c18278e8f3e43d8036bc223dd4c2fbda",
+    "semantic_hash": ""
+  }
+}
