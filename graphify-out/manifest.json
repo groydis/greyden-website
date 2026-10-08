@@ -60,9 +60,9 @@
     "semantic_hash": ""
   },
   "src/pages/Home.tsx": {
-    "mtime": 1791419411.353749,
-    "seen": 1791419416.5930161,
-    "ast_hash": "8439cf7b12133cf0f2bfbb7a697ad8c2",
+    "mtime": 1791419920.9329321,
+    "seen": 1791419947.4185028,
+    "ast_hash": "95551fd0705d75bb10bce4eaf5fd1904",
     "semantic_hash": ""
   },
   "src/pages/Projects.tsx": {
@@ -108,9 +108,9 @@
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1791418497.9942007,
-    "seen": 1791418733.87416,
-    "ast_hash": "34c9fa010dbb7d9493ade27daad01566",
+    "mtime": 1791419920.9330213,
+    "seen": 1791419947.418507,
+    "ast_hash": "4acc96c63a17531ae019bff46219a3fa",
     "semantic_hash": ""
   },
   "public/robots.txt": {
