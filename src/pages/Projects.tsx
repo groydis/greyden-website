@@ -46,7 +46,7 @@ export default function Projects() {
     <div className="snes-page">
       <Seo
         title="Projects"
-        description="Greyden Scott's projects: Star Trail, Hoppy Dungeon, Squared Stiff, GeoColour, SCANZ.SPACE, Big Brain Bash, Pizza Roulette, Meal Wheel, and Bin Chicken Dinner Royale."
+        description="Greyden Scott's projects: Dopamine Clicks, Star Trail, Hoppy Dungeon, Squared Stiff, GeoColour, SCANZ.SPACE, Big Brain Bash, Pizza Roulette, Meal Wheel, and Bin Chicken Dinner Royale."
         path="/projects"
       />
       <div className="snes-page-inner">
@@ -64,6 +64,47 @@ export default function Projects() {
 
         <Stage
           file="FILE 1"
+          title="Dopamine Clicks"
+          status="NOW PLAYING"
+          containerClass="has-grey-bg"
+        >
+          <img
+            className="snes-image"
+            alt="Dopamine Clicks title card with a lime click button that says just one more click"
+            src="/dopamineclicks.png"
+            width={1200}
+            height={630}
+          />
+          <blockquote className="snes-blockquote has-nature-bg">
+            <p>Fulfillment sold separately.</p>
+          </blockquote>
+          <p>
+            Dopamine Clicks is a free idle clicker you can play in your
+            browser. Click for dopamine, hire Unpaid Interns, and build an
+            increasingly unnecessary automation empire.
+          </p>
+          <p>
+            Buy upgrades, claim achievements, and prestige twice. A Sense of
+            Completion pays out in Regret. An Administrative Conclusion pays
+            out in Indifference. Management becomes progressively less
+            impressed.
+          </p>
+          <ul className="snes-list is-nature-list-color">
+            <li>Your first Unpaid Intern costs 15 dopamine</li>
+            <li>Two prestige layers: Regret, then Indifference</li>
+            <li>Automation keeps earning while you are away</li>
+            <li>Free in the browser. No download, no account.</li>
+          </ul>
+          <a
+            className="snes-button has-nature-color"
+            href="https://dopamineclicks.com/"
+          >
+            NEW GAME
+          </a>
+        </Stage>
+
+        <Stage
+          file="FILE 2"
           title="Star Trail"
           status="NOW PLAYING"
           containerClass="has-grey-bg"
@@ -103,7 +144,7 @@ export default function Projects() {
         </Stage>
 
         <Stage
-          file="FILE 2"
+          file="FILE 3"
           title="Hoppy Dungeon"
           status="NOW PLAYING"
           containerClass="has-grey-bg"
@@ -143,7 +184,7 @@ export default function Projects() {
         </Stage>
 
         <Stage
-          file="FILE 3"
+          file="FILE 4"
           title="Squared Stiff"
           status="NOW PLAYING"
           containerClass="has-grey-bg"
@@ -187,7 +228,7 @@ export default function Projects() {
         </Stage>
 
         <Stage
-          file="FILE 4"
+          file="FILE 5"
           title="GeoColour"
           status="COMING SOON"
           containerClass="has-soft-green-bg"
@@ -231,7 +272,7 @@ export default function Projects() {
         </Stage>
 
         <Stage
-          file="FILE 5"
+          file="FILE 6"
           title="SCANZ.SPACE"
           status="NOW PLAYING"
           containerClass="has-white-bg"
@@ -262,7 +303,7 @@ export default function Projects() {
         </Stage>
 
         <Stage
-          file="FILE 6"
+          file="FILE 7"
           title="Big Brain Bash"
           status="GAME OVER"
           containerClass="has-secondary-purple-bg"
@@ -299,7 +340,7 @@ export default function Projects() {
         </Stage>
 
         <Stage
-          file="FILE 7"
+          file="FILE 8"
           title="Pizza Roulette"
           status="GAME OVER"
           containerClass="has-aged-yellow-bg"
@@ -399,7 +440,7 @@ export default function Projects() {
         </Stage>
 
         <Stage
-          file="FILE 8"
+          file="FILE 9"
           title="Meal Wheel"
           status="GAME OVER"
           containerClass="has-aged-yellow-bg"
@@ -418,7 +459,7 @@ export default function Projects() {
         </Stage>
 
         <Stage
-          file="FILE 9"
+          file="FILE 10"
           title="Bin Chicken Dinner Royale"
           status="GAME OVER"
           containerClass="has-grey-bg"

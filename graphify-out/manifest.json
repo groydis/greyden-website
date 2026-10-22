@@ -18,9 +18,9 @@
     "semantic_hash": ""
   },
   "functions/_lib/blog-proxy.js": {
-    "mtime": 1789551751.2265747,
-    "seen": 1791418733.874154,
-    "ast_hash": "bc99ba308a8c71d1a8f6989dcde9aa2f",
+    "mtime": 1791438637.3512058,
+    "seen": 1791438970.0509288,
+    "ast_hash": "c815d76b3039a29bb52cbc41c476997d",
     "semantic_hash": ""
   },
   "functions/news/[[path]].js": {
@@ -66,9 +66,9 @@
     "semantic_hash": ""
   },
   "src/pages/Projects.tsx": {
-    "mtime": 1791418584.0881808,
-    "seen": 1791418733.874157,
-    "ast_hash": "8c045356f80ee6fd8a145820124639e2",
+    "mtime": 1792707105.2702456,
+    "seen": 1792707211.825901,
+    "ast_hash": "c401e3e5c257bd60a9ea3fff41f30158",
     "semantic_hash": ""
   },
   "src/pages/Resume.tsx": {
@@ -108,9 +108,9 @@
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1791437912.601748,
-    "seen": 1791437971.404491,
-    "ast_hash": "70b2a85d7598d83dd90d4eab7bdcf530",
+    "mtime": 1792707095.4129279,
+    "seen": 1792707211.8259048,
+    "ast_hash": "9f78cd891ecd72547b9d0eb70402c163",
     "semantic_hash": ""
   },
   "public/robots.txt": {
@@ -339,6 +339,18 @@
     "mtime": 1789167800.0068681,
     "seen": 1791418733.874175,
     "ast_hash": "c18278e8f3e43d8036bc223dd4c2fbda",
+    "semantic_hash": ""
+  },
+  "functions/_lib/h-entry.js": {
+    "mtime": 1791438720.2821279,
+    "seen": 1791438970.05093,
+    "ast_hash": "54b22961e3f0be3754a256e3b347d17b",
+    "semantic_hash": ""
+  },
+  "public/dopamineclicks.png": {
+    "mtime": 1792707065.9873524,
+    "seen": 1792707211.825909,
+    "ast_hash": "750064f30036a791717dc08459ab8888",
     "semantic_hash": ""
   }
 }

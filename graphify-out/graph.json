@@ -182,7 +182,55 @@
       "file_type": "code",
       "norm_label": "proxyblog()",
       "source_file": "functions/_lib/blog-proxy.js",
+      "source_location": "L6"
+    },
+    {
+      "id": "functions_lib_h_entry_addclass",
+      "label": "addClass()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "proxyBlog",
+      "file_type": "code",
+      "norm_label": "addclass()",
+      "source_file": "functions/_lib/h-entry.js",
+      "source_location": "L8"
+    },
+    {
+      "id": "functions_lib_h_entry_escapehtml",
+      "label": "escapeHtml()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "proxyBlog",
+      "file_type": "code",
+      "norm_label": "escapehtml()",
+      "source_file": "functions/_lib/h-entry.js",
+      "source_location": "L16"
+    },
+    {
+      "id": "functions_lib_h_entry_isnewspost",
+      "label": "isNewsPost()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "proxyBlog",
+      "file_type": "code",
+      "norm_label": "isnewspost()",
+      "source_file": "functions/_lib/h-entry.js",
       "source_location": "L4"
+    },
+    {
+      "id": "functions_lib_h_entry_rewritenewspost",
+      "label": "rewriteNewsPost()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "proxyBlog",
+      "file_type": "code",
+      "norm_label": "rewritenewspost()",
+      "source_file": "functions/_lib/h-entry.js",
+      "source_location": "L24"
     },
     {
       "id": "functions_news_path_onrequest",
@@ -1088,6 +1136,17 @@
       "source_location": "L1"
     },
     {
+      "id": "functions_lib_h_entry",
+      "label": "h-entry.js",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "proxyBlog",
+      "file_type": "code",
+      "norm_label": "h-entry.js",
+      "source_file": "functions/_lib/h-entry.js",
+      "source_location": "L1"
+    },
+    {
       "id": "functions_news_path",
       "label": "news/[[path]].js",
       "_origin": "ast",
@@ -1348,6 +1407,7 @@
     {
       "id": "src_index",
       "label": "src_index",
+      "_origin": "semantic",
       "community": 0,
       "community_name": "App.tsx",
       "external": true,
@@ -1359,6 +1419,7 @@
     {
       "id": "src_vendor_98",
       "label": "src_vendor_98",
+      "_origin": "semantic",
       "community": 0,
       "community_name": "App.tsx",
       "external": true,
@@ -1370,6 +1431,7 @@
     {
       "id": "ref_postcss",
       "label": "ref_postcss",
+      "_origin": "semantic",
       "community": 3,
       "community_name": "package.json",
       "external": true,
@@ -1402,6 +1464,30 @@
       "context": "call",
       "source_file": "functions/_emdash/api/[[path]].js",
       "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "functions_lib_blog_proxy_proxyblog",
+      "target": "functions_lib_h_entry_isnewspost",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "functions/_lib/blog-proxy.js",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "functions_lib_blog_proxy_proxyblog",
+      "target": "functions_lib_h_entry_rewritenewspost",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "functions/_lib/blog-proxy.js",
+      "source_location": "L25",
       "weight": 1.0
     },
     {
@@ -1474,6 +1560,30 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "functions/_emdash/api/[[path]].js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "functions_lib_blog_proxy",
+      "target": "functions_lib_h_entry_isnewspost",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "functions/_lib/blog-proxy.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "functions_lib_blog_proxy",
+      "target": "functions_lib_h_entry_rewritenewspost",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "functions/_lib/blog-proxy.js",
       "source_location": "L1",
       "weight": 1.0
     },
@@ -1750,6 +1860,18 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "functions/_emdash/api/[[path]].js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "functions_lib_blog_proxy",
+      "target": "functions_lib_h_entry",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "functions/_lib/blog-proxy.js",
       "source_location": "L1",
       "weight": 1.0
     },
@@ -2095,7 +2217,51 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "functions/_lib/blog-proxy.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "functions_lib_h_entry",
+      "target": "functions_lib_h_entry_escapehtml",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "functions/_lib/h-entry.js",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "functions_lib_h_entry",
+      "target": "functions_lib_h_entry_rewritenewspost",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "functions/_lib/h-entry.js",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "functions_lib_h_entry",
+      "target": "functions_lib_h_entry_isnewspost",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "functions/_lib/h-entry.js",
       "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "functions_lib_h_entry",
+      "target": "functions_lib_h_entry_addclass",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "functions/_lib/h-entry.js",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -3066,5 +3232,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "ef4f89378452cb41be060c9919ea0d4605e1bbd0"
+  "built_at_commit": "ecaf4805e82d9e2ea686d8ac88dbd38ddef67b21"
 }
